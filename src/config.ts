@@ -97,6 +97,9 @@ export const discord = cached(() => {
       "DISCORD_PROJECT_UPDATE_ALERT_CHANNEL_ID"
     ),
     DISCORD_SHINKA_ROLE_ID: requiredEnv("DISCORD_SHINKA_ROLE_ID"),
+    DISCORD_PROJECT_MODERATION_ALERT_CHANNEL_ID: requiredEnv(
+      "DISCORD_PROJECT_MODERATION_ALERT_CHANNEL_ID"
+    ),
   };
 });
 
